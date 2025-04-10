@@ -1,18 +1,25 @@
 # Installation
 
-Um alle benutzten Libraries zu installieren folgenden Command ausführen
+Um alle benutzten Libraries zu installieren folgenden Command ausführen:
 
 ```bash
 pip install tensorflow scikit-learn opencv-python Pillow matplotlib
 ```
 
-# Ausführung
+# Verwendung
 
-BigDataSet sind die verwendeten Trainingsdaten.
+Um das Python-Skript `gui.py` auszuführen, öffne das Terminal und führe den folgenden Befehl aus:
 
-(Optional um neues Modell zu trainieren)
+```bash
+python gui.py
+```
+
+# Aussehen der GUI
+
+![Aussehen-der-GUI](gui.png)
+
+# Optional um eigenes Modell zu trainieren
+
 - BigDataSet entpacken(im selben Ordner)
 - ausführen von prepare_data.py => es werden 2 numpy Arrays erstellt
 - ausführen von create_model => trainiert ein neues Modell mit 100 Epochen anhand von BigDataSet
-
-Verwendung: gui.py ausführen
