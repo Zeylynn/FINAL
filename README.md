@@ -16,7 +16,7 @@ python gui.py
 
 # Aussehen der GUI
 
-
+![Aussehen-der-GUI](gui_picture.png)
 
 # Optional um eigenes Modell zu trainieren
 
