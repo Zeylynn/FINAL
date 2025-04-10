@@ -1,6 +1,6 @@
 import tkinter as tk
 import numpy as np
-from PIL import Image, ImageDraw, ImageOps, ImageTk
+from PIL import Image, ImageDraw, ImageOps
 import tensorflow as tf
 import matplotlib.pyplot as plt
 from matplotlib.backends.backend_tkagg import FigureCanvasTkAgg

@@ -1,7 +1,6 @@
 import tensorflow as tf
 from tensorflow.keras import Sequential
 from tensorflow.keras.layers import Dense, Flatten, BatchNormalization, MaxPooling2D, Dropout, SeparableConv2D
-#from tensorflow.keras.datasets import mnist
 from tensorflow.keras.preprocessing.image import ImageDataGenerator
 from tensorflow.keras.regularizers import l2
 import numpy as np
